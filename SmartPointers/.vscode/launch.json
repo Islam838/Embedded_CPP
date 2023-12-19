@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/islam/Documents/Embedded_C++/Projects/Embedded_CPP/OperatorOL",
-      "program": "c:/Users/islam/Documents/Embedded_C++/Projects/Embedded_CPP/OperatorOL/build/Debug/outDebug",
+      "cwd": "c:/Users/islam/Documents/Embedded_C++/Projects/Embedded_CPP/SmartPointers",
+      "program": "c:/Users/islam/Documents/Embedded_C++/Projects/Embedded_CPP/SmartPointers/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
