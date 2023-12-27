@@ -15,14 +15,17 @@ int main()
     std::shared_ptr<int> sptr;
     std::cout << "after decleration ---->" << sptr.use_count() <<"\n";
     // takes ownership of pointer
+
+    std::weak_ptr<int> weak1 = sptr;
+
     sptr.reset(new int);
     std::cout << "after reset 1 ---->" << sptr.use_count() <<"\n";
     *sptr = 10;
     std::cout << "after assign 1 ---->" << sptr.use_count() <<"\n";
 
     // get pointer to data without taking ownership
-    std::weak_ptr<int> weak1 = sptr;
-    std::cout << "after weak 1 ptr ---->" << sptr.use_count() <<"\n";
+    //std::weak_ptr<int> weak1 = sptr;
+    //std::cout << "after weak 1 ptr ---->" << sptr.use_count() <<"\n";
 
     std::shared_ptr<int> NewSptr;
     NewSptr = sptr;
@@ -38,7 +41,7 @@ int main()
     std::weak_ptr<int> weak2 = sptr;
     std::cout << "after weak 2 ptr ---->" << sptr.use_count() <<"\n";
 
-    std::cout << weak1.lock() << "----->" << *(weak1.lock()) << std::endl;
+    std::cout << weak1.lock() << "----->" << "\n" ;//<< *(weak1.lock()) << std::endl;
     std::cout << weak2.lock() << "----->" << *(weak2.lock()) << std::endl;
 
     // weak1 is expired!

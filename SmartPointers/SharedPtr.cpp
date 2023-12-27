@@ -44,7 +44,7 @@ int main()
 
     shared_ptr<Square> s4(s3);
     cout<< "\ns4 area = " <<s4->area();
-
+    
 
     return 0;
 }

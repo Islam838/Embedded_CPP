@@ -103,11 +103,11 @@ int main(){
         ++i;
     }
 
+    //Sort the LL
     PreOne->data = 3;
     one->data = 1;
     two->data = 6;
     PostTwo->data = 4; 
-    //Sort the LL
     std::cout << "Before Sorting" << std::endl;
     Head = PreOne;
     i=0;
