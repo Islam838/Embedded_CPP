@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/islam/Documents/Embedded_C++/Projects/Embedded_CPP/MergeSort",
-      "program": "c:/Users/islam/Documents/Embedded_C++/Projects/Embedded_CPP/MergeSort/build/Debug/outDebug",
+      "cwd": "c:/Users/islam/Documents/Embedded_C++/Projects/Embedded_CPP/DesignPatterns/Adapter",
+      "program": "c:/Users/islam/Documents/Embedded_C++/Projects/Embedded_CPP/DesignPatterns/Adapter/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
